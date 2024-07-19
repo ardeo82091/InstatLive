@@ -18,11 +18,11 @@ app.post("/api/v1/login", (req: Request, res: Response) => {
 });
 
 // Accounts
-app.post("/api/v1/createAccount", (req: Request, res: Response) => {
+app.post("/api/v1/createAccount", (req: Request, res: Response) => { //create
   createAccount(req, res);
 });
 
-app.put("/api/v1/updateAccount", (req: Request, res: Response) => {
+app.put("/api/v1/updateAccount", (req: Request, res: Response) => { //update
   updateAccount(req, res);
 });
 
